@@ -6,7 +6,7 @@ This repository contains the Universal Dependencies (UD) treebanks derived from 
 This treebank is built based on three existing treebanks (details in Source Section).
 We compile, harmonize, and manually correct major UD-style annotations of CHILDES data into a consistent, unified UD format, 
 resulting in a gold-standard treebank of 48K sentences and 236K tokens.
-## Statistics
+## Overall Statistics
 
 | Child  | Corpus     | Child Age Range     | Gold Sents | Gold Toks |
 |--------|------------|---------------------|------------|-----------|
@@ -22,6 +22,15 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 | Emma   | Weist      | 2;2–4;10 (2;1–5;0)  | 2,423      | 13,730    |
 | Roman  | Weist      | 2;2–4;9 (2;1–5;0)   | 3,653      | 20,557    | 
  |Overall| NA         | NA                  |48,183      |236,941|
+
+## Train, dev, test split statistics
+
+| split | Children  | Corpus | Gold Sents |
+|-------|-----------|---------|------------|
+| Train | Adam, Lily, Naima, Sarah, Roman, Laura, Abe | Brown, Providence, Weist, Kuczaj, Braunwald| 34,732     | 
+| Dev   | Adam, Lily, Naima, Sarah, Roman, Laura, Abe    | Brown, Providence, Weist, Kuczaj, Braunwald | 3,860      | 
+| Test  | Eve, Violet, Emma, Thomas| Brown, Providence, Weist, Thomas| 9,591      | 
+
 
 ## Sources
 - [S+24] Paper: [Cross-linguistically Consistent Semantic and Syntactic Annotation of Child-directed Speech](https://link.springer.com/article/10.1007/s10579-024-09734-y) by Ida Szubert, Omri Abend, Nathan Schneider, Samuel Gibbon, Louis Mahon, Sharon Goldwater, and Mark Steedman 
