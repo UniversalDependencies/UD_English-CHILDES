@@ -59,7 +59,17 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 # Acknowledgments
 ## References
 
-* (citation)
+```
+@misc{yang2025udenglishchildescollectedresourcegold,
+      title={UD-English-CHILDES: A Collected Resource of Gold and Silver Universal Dependencies Trees for Child Language Interactions}, 
+      author={Xiulin Yang and Zhuoxuan Ju and Lanni Bu and Zoey Liu and Nathan Schneider},
+      year={2025},
+      eprint={2504.20304},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.20304}, 
+}
+```
 
 
 # Changelog
@@ -73,13 +83,13 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples
-Lemmas: manual native
-UPOS: manual native
+Genre: spoken
+Lemmas: utomatic with corrections
+UPOS: automatic with corrections
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Yang, Xiulin
+Contributors: Yang, Xiulin; Ju, Zhuoxuan, Bu, Lanni; Liu, Zoey; Schneider, Nathan
 Contributing: here
 Contact: xy236@georgetown.edu
 ===============================================================================
