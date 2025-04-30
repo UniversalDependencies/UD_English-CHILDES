@@ -99,7 +99,7 @@ Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: spoken
-Lemmas: utomatic with corrections
+Lemmas: automatic with corrections
 UPOS: automatic with corrections
 XPOS: not available
 Features: manual native
