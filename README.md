@@ -32,6 +32,21 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 | Test  | Eve, Violet, Emma, Thomas| Brown, Providence, Weist, Thomas| 9,591      | 
 
 
+## Example
+```
+# sent_id = 24433               (normalized sentence ID across corpora; used to avoid collisions since some corpora share identical sentence IDs)
+# original_sent_id = 1715344    (original sentence ID from the corpus, as assigned in CHILDES-R)
+# childes_toks = a world of Easter   (original token string from CHILDES-R)
+# child_name = Adam
+# corpus_name = Brown
+# gold_annotation = True
+# speaker_age = 31.03           (speaker's age in months)
+# speaker_gender = male         (child's gender)
+# speaker_role = Mother         (speaker role in conversation)
+# type = trail off              (sentence type annotation)
+# text = A world of Easter.
+
+```
 ## Sources
 - [S+24] Paper: [Cross-linguistically Consistent Semantic and Syntactic Annotation of Child-directed Speech](https://link.springer.com/article/10.1007/s10579-024-09734-y) by Ida Szubert, Omri Abend, Nathan Schneider, Samuel Gibbon, Louis Mahon, Sharon Goldwater, and Mark Steedman 
    - Data Source: [CHILDES_UD2LF_2](https://github.com/Lou1sM/CHILDES_UD2LF_2)  
