@@ -47,7 +47,27 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 # text = A world of Easter.
 
 ```
-## Sources
+
+# References
+
+The creation of this unified resource is detailed in:
+
+Xiulin Yang, Zhuoxuan Ju, Lanni Bu, Zoey Liu, Nathan Schneider (2025). [UD-English-CHILDES: A Collected Resource of Gold and Silver Universal Dependencies Trees for Child Language Interactions](https://arxiv.org/abs/2504.20304). arXiv preprint.
+
+```
+@misc{yang2025udenglishchildescollectedresourcegold,
+      title={UD-English-CHILDES: A Collected Resource of Gold and Silver Universal Dependencies Trees for Child Language Interactions},
+      author={Xiulin Yang and Zhuoxuan Ju and Lanni Bu and Zoey Liu and Nathan Schneider},
+      year={2025},
+      eprint={2504.20304},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.20304},
+}
+```
+
+Earlier resources that were consolidated:
+
 - [S+24] Paper: [Cross-linguistically Consistent Semantic and Syntactic Annotation of Child-directed Speech](https://link.springer.com/article/10.1007/s10579-024-09734-y) by Ida Szubert, Omri Abend, Nathan Schneider, Samuel Gibbon, Louis Mahon, Sharon Goldwater, and Mark Steedman
    - Data Source: [CHILDES_UD2LF_2](https://github.com/Lou1sM/CHILDES_UD2LF_2)
    - CHILDES corpus: Adam Corpus (from the Brown Corpus)
@@ -72,19 +92,8 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
      - *Violet_Providence*
 
 # Acknowledgments
-## References
 
-```
-@misc{yang2025udenglishchildescollectedresourcegold,
-      title={UD-English-CHILDES: A Collected Resource of Gold and Silver Universal Dependencies Trees for Child Language Interactions},
-      author={Xiulin Yang and Zhuoxuan Ju and Lanni Bu and Zoey Liu and Nathan Schneider},
-      year={2025},
-      eprint={2504.20304},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.20304},
-}
-```
+We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldwater, Mark Steedman, and Emily Prud’hommeaux for their contributions to the original UD treebanking efforts. We also thank Brian MacWhinney for helpful discussions.
 
 
 # Changelog
