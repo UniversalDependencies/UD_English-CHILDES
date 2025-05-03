@@ -1,9 +1,9 @@
 # Summary
 
-This repository contains the Universal Dependencies (UD) treebanks derived from CHILDES corpora.
+This repository contains Universal Dependencies (UD) trees for utterances from child–adult spoken interactions in English, drawn from [CHILDES](https://childes.talkbank.org/) transcripts.
 
 # Introduction
-This treebank is built based on three existing treebanks (details in Source Section).
+This treebank is built based on three existing treebanks (details under [References](#references)).
 We compile, harmonize, and manually correct major UD-style annotations of CHILDES data into a consistent, unified UD format,
 resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 ## Overall Statistics
@@ -110,8 +110,8 @@ Includes text: yes
 Genre: spoken
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
-XPOS: not available
-Features: manual native
+XPOS: automatic
+Features: not available
 Relations: manual native
 Contributors: Yang, Xiulin; Ju, Zhuoxuan; Bu, Lanni; Liu, Zoey; Schneider, Nathan
 Contributing: here
