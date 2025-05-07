@@ -2197,7 +2197,7 @@
 # speaker_role = Target_Child
 # type = question
 # text = How come you didn't bring your car today?
-1	How	how	ADV	WRB	_	6	advmod	6:advmod	_
+1	How	how	ADV	WRB	ExtPos=ADV	6	advmod	6:advmod	_
 2	come	come	VERB	VB	_	1	fixed	1:fixed	_
 3	you	you	PRON	PRP	_	6	nsubj	6:nsubj	_
 4-5	didn't	_	_	_	_	_	_	_	_
@@ -23179,7 +23179,7 @@
 4	'm	be	AUX	VBP	_	6	aux	6:aux	_
 5	just	just	ADV	RB	_	6	advmod	6:advmod	_
 6	getting	get	VERB	VBG	_	0	root	0:root	_
-7	sort	sort	ADV	NN	_	9	advmod	9:advmod	_
+7	sort	sort	ADV	NN	ExtPos=ADV	9	advmod	9:advmod	_
 8	of	of	ADP	IN	_	7	fixed	7:fixed	_
 9	dizzy	dizzy	NOUN	NN	_	6	xcomp	6:xcomp	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -28628,7 +28628,7 @@
 # speaker_role = Father
 # type = question
 # text = How come you have cookies for lunch sometimes?
-1	How	how	ADV	WRB	_	4	advmod	4:advmod	_
+1	How	how	ADV	WRB	ExtPos=ADV	4	advmod	4:advmod	_
 2	come	come	VERB	VBP	_	1	fixed	1:fixed	_
 3	you	you	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	have	have	VERB	VB	_	0	root	0:root	_
@@ -29614,7 +29614,7 @@
 # speaker_role = Target_Child
 # type = question
 # text = How come he died?
-1	How	how	ADV	WRB	_	4	advmod	4:advmod	_
+1	How	how	ADV	WRB	ExtPos=ADV	4	advmod	4:advmod	_
 2	come	come	VERB	VB	_	1	fixed	1:fixed	_
 3	he	he	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	died	die	VERB	VBD	_	0	root	0:root	SpaceAfter=No
@@ -36706,7 +36706,7 @@
 12-13	it's	_	_	_	_	_	_	_	_
 12	it	it	PRON	PRP	_	14	nsubj	14:nsubj	_
 13	's	be	AUX	VBZ	_	14	cop	14:cop	_
-14	upside	upside	ADJ	JJ	_	6	conj	6:conj:but	_
+14	upside	upside	NOUN	JJ	ExtPos=ADV	6	conj	6:conj:but	_
 15	down	down	ADP	RP	_	14	fixed	14:fixed	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -36827,9 +36827,9 @@
 # speaker_role = Target_Child
 # type = declarative
 # text = Because of because of we have a thousands of boys.
-1	Because	because	ADP	IN	_	3	reparandum	3:reparandum	repetition
+1	Because	because	ADP	IN	ExtPos=ADV	3	reparandum	3:reparandum	repetition
 2	of	of	ADP	IN	_	1	fixed	1:fixed	_
-3	because	because	ADP	IN	_	6	mark	6:mark	_
+3	because	because	ADP	IN	ExtPos=ADV	6	mark	6:mark	_
 4	of	of	ADP	IN	_	3	fixed	3:fixed	_
 5	we	we	PRON	PRP	_	6	nsubj	6:nsubj	_
 6	have	have	VERB	VBP	_	0	root	0:root	_
@@ -46727,7 +46727,7 @@
 # type = question
 # text = Momma what for?
 1	Momma	momma	NOUN	NN	_	2	vocative	2:vocative	_
-2	what	what	PRON	WP	_	0	root	0:root	_
+2	what	what	PRON	WP	ExtPos=ADV	0	root	0:root	_
 3	for	for	ADP	IN	_	2	fixed	2:fixed	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	2:punct	_
 
