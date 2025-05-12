@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>36737</sentences><tokens>213547</tokens><words>226470</words><fused>12905</fused></total>
+    <train><sentences>24431</sentences><tokens>143701</tokens><words>152310</words><fused>8597</fused></train>
+    <dev><sentences>2715</sentences><tokens>15824</tokens><words>16760</words><fused>935</fused></dev>
+    <test><sentences>9591</sentences><tokens>54022</tokens><words>57400</words><fused>3373</fused></test>
+  </size>
+  <lemmas unique="4402" /><!-- ., be, ?, you, i, a, the, do, it, to, that, not, what, and, go -->
+  <forms unique="5607" /><!-- ., ?, you, i, 's, the, a, it, that, do, what, and, n't, to, is -->
+  <fusions unique="425" /><!-- don't, it's, that's, I'm, wanna, gonna, you're, what's, hafta, he's, didn't, can't, let's, I'll, there's -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">7447</tag><!-- big, little, good, more, other, nice, right, else, red, Roman -->
+    <tag name="ADP">10029</tag><!-- in, on, of, to, for, with, up, at, like, out -->
+    <tag name="ADV">12547</tag><!-- here, there, where, now, just, too, how, right, so, on -->
+    <tag name="AUX">18832</tag><!-- be, do, can, will, have, would, could, should, might, get -->
+    <tag name="CCONJ">3775</tag><!-- and, but, or, either, yet, both, neither, dey, plus, tidil -->
+    <tag name="DET">15095</tag><!-- a, the, that, this, some, all, no, what, another, any -->
+    <tag name="INTJ">6463</tag><!-- oh, no, yeah, um, okay, well, yes, hey, uh, please -->
+    <tag name="NOUN">27499</tag><!-- one, baby, car, thing, book, mommy, milk, time, house, man -->
+    <tag name="NUM">2147</tag><!-- one, two, three, four, five, six, seven, nine, eight, i -->
+    <tag name="PART">7701</tag><!-- not, to, 's, that, 's', dey, be, dis, t, da -->
+    <tag name="PRON">38669</tag><!-- you, i, it, that, what, we, he, they, this, my -->
+    <tag name="PROPN">6494</tag><!-- Mommy, Daddy, Adam, Laura, Mummy, Abe, Thomas, Eve, Fraser, Roman -->
+    <tag name="PUNCT">36771</tag><!-- ., ?, !, dere, o, that, Swww, a, dis, t -->
+    <tag name="SCONJ">2189</tag><!-- if, when, because, that, how, where, like, why, after, while -->
+    <tag name="SYM">14</tag><!-- a, whoowhoo, ooh, that, um -->
+    <tag name="VERB">30634</tag><!-- go, want, have, get, do, see, put, think, look, know -->
+    <tag name="X">164</tag><!-- _, doo, a, e, r, d, s, o, h, mm -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="3">
+    <feat name="ExtPos" value="ADP" upos="ADP">1</feat><!-- up -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,NOUN,PRON">150</feat><!-- how, kind, upside, as, of, instead, sort, so, what, out -->
+    <feat name="Typo" value="Yes" upos="ADP,ADV,INTJ,NOUN,PRON,PROPN,VERB">27</feat><!-- Uh, Mm, pa, up, Ah, Arf, Beep, Bok, Night, P -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="47">
+    <dep name="acl">277</dep>
+    <dep name="acl:relcl">546</dep>
+    <dep name="advcl">1285</dep>
+    <dep name="advmod">12952</dep>
+    <dep name="amod">3728</dep>
+    <dep name="appos">116</dep>
+    <dep name="aux">9605</dep>
+    <dep name="aux:pass">266</dep>
+    <dep name="case">8991</dep>
+    <dep name="cc">3649</dep>
+    <dep name="cc:preconj">8</dep>
+    <dep name="ccomp">1946</dep>
+    <dep name="compound">2081</dep>
+    <dep name="compound:prt">1550</dep>
+    <dep name="conj">4160</dep>
+    <dep name="cop">7398</dep>
+    <dep name="csubj">44</dep>
+    <dep name="dep">56</dep>
+    <dep name="det">13506</dep>
+    <dep name="det:predet">233</dep>
+    <dep name="discourse">5930</dep>
+    <dep name="dislocated">44</dep>
+    <dep name="expl">540</dep>
+    <dep name="fixed">143</dep>
+    <dep name="flat">647</dep>
+    <dep name="goeswith">32</dep>
+    <dep name="iobj">761</dep>
+    <dep name="mark">5340</dep>
+    <dep name="nmod">1699</dep>
+    <dep name="nmod:poss">3457</dep>
+    <dep name="nmod:tmod">21</dep>
+    <dep name="nsubj">28546</dep>
+    <dep name="nsubj:outer">226</dep>
+    <dep name="nsubj:pass">237</dep>
+    <dep name="nummod">655</dep>
+    <dep name="obj">14880</dep>
+    <dep name="obl">5614</dep>
+    <dep name="obl:npmod">229</dep>
+    <dep name="obl:tmod">492</dep>
+    <dep name="obl:unmarked">3</dep>
+    <dep name="orphan">1</dep>
+    <dep name="parataxis">2643</dep>
+    <dep name="punct">36740</dep>
+    <dep name="reparandum">1287</dep>
+    <dep name="root">36737</dep>
+    <dep name="vocative">2500</dep>
+    <dep name="xcomp">4669</dep>
+  </deps>
+</treebank>
