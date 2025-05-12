@@ -11,7 +11,7 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 | Child  | Corpus     | Child Age Range     | Gold Sents | Gold Toks |
 |--------|------------|---------------------|------------|-----------|
 | Laura  | Braunwald  | 1;3–7;0 (1;3–7;0)   | 4,622      | 21,079    |
-| Adam   | Brown      | 1;6–5;2 (1;6–5;2)   | 16,736     | 84,643    |
+| Adam   | Brown      | 1;6–5;2 (1;6–5;2)   | 16,770     | 84,643    |
 | Eve    | Brown      | 1;6–5;1 (1;6–5;2)   | 2,207      | 8,497     |
 | Abe    | Kuczaj     | 2;4–5;0 (2;4–5;0)   | 4,167      | 22,437    |
 | Sarah  | Brown      | 1;6–5;2 (1;6–5;2)   | 5,347      | 23,233    |
