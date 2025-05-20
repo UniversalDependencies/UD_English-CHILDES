@@ -98,8 +98,10 @@ We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldw
 
 # Changelog
 
+* Current dev version
+  * Fixes missing sentences and README stats
 * 2025-05-15 v2.16
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies. NOTE: Due to a preprocessing bug, this version was missing 10k Adam sentences, and README statistics were incorrect.
 
 
 <pre>
