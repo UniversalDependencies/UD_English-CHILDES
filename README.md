@@ -98,8 +98,12 @@ We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldw
 
 # Changelog
 
-* Current dev version
-  * Fixes missing sentences and README stats
+* 2025-11-15 v2.17
+  * Adds 10k missing Adam sentences, and updates README stats
+  * Corrections to address the "too many `obj`s" validator error
+  * Clarify metadata terminology: `speaker_age` → `child_age`, `speaker_gender` → `child_gender` ([#2](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/2))
+  * Correct issues with _either_/_neither_/_yet_ ([#3](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/3))
+  * Correct _dat_ ('that') tagged ADP instead of PRON ([#4](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/4))
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies. NOTE: Due to a preprocessing bug, this version was missing 10k Adam sentences, and README statistics were incorrect.
 
