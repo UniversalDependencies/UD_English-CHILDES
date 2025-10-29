@@ -23229,7 +23229,7 @@
 1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	spilt	spilt	VERB	VBD	_	0	root	0:root	_
 3	little	little	ADJ	JJ	_	4	amod	4:amod	_
-4	bit	bit	NOUN	NN	_	5	obl:npmod	5:obl:npmod	_
+4	bit	bit	NOUN	NN	_	5	nmod	5:nmod	_
 5	milk	milk	NOUN	NN	_	2	obj	2:obj	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -57109,7 +57109,7 @@
 2	does	do	AUX	VBZ	_	3	aux	3:aux	_
 3	look	look	VERB	VB	_	0	root	0:root	_
 4	a	a	DET	DT	_	5	det	5:det	_
-5	little	little	ADJ	JJ	_	7	obl:npmod	7:obl:npmod	_
+5	little	little	ADJ	JJ	_	6	obl:npmod	6:obl:npmod	_
 6	like	like	ADP	IN	_	7	case	7:case	_
 7	Peanuts	Peanuts	PROPN	NNP	_	3	obl	3:obl:like	_
 8-9	doesn't	_	_	_	_	_	_	_	_

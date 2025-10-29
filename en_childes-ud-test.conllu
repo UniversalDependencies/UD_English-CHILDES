@@ -115988,7 +115988,7 @@
 4-5	Becky's	_	_	_	_	_	_	_	_
 4	Becky	Becky	PROPN	NNP	_	6	nmod:poss	6:nmod:poss	_
 5	's	's	PART	POS	_	4	case	4:case	_
-6	tv	tv	NOUN	NN	_	2	obl	2:obl	_
+6	tv	tv	NOUN	NN	_	2	nmod	2:nmod	_
 7	says	say	VERB	VBZ	_	0	root	0:root	_
 8	what	what	PRON	WP	_	7	obj	7:obj	SpaceAfter=No
 9	?	?	PUNCT	.	_	7	punct	7:punct	_
