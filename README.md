@@ -104,7 +104,8 @@ We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldw
   * Clarify metadata terminology: `speaker_age` → `child_age`, `speaker_gender` → `child_gender` ([#2](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/2))
   * Correct issues with _either_/_neither_/_yet_ ([#3](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/3))
   * Correct _dat_ ('that') tagged ADP instead of PRON ([#4](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/4))
-  * Correct 'obl-should-be-nmod' warning. **One exception**: *today* in sentence *what's the matter with you today* still annotated as ```obl```.
+  * Correct 'obl-should-be-nmod' warning.
+  * Replace all ```:tmod``` with ```:unmarked```.
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies. NOTE: Due to a preprocessing bug, this version was missing 10k Adam sentences, and README statistics were incorrect.
 
