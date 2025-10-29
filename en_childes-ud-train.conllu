@@ -319808,7 +319808,7 @@
 4	wan	want	VERB	VB	_	0	root	0:root	_
 5	na	to	PART	TO	_	6	mark	6:mark	_
 6	do	do	VERB	VB	_	4	xcomp	4:xcomp	_
-7	tomorrow	tomorrow	NOUN	NN	_	8	obl:tmod	8:obl:tmod	_
+7	tomorrow	tomorrow	NOUN	NN	_	8	compound	8:compound	_
 8	morning	morning	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
 9	?	?	PUNCT	?	_	4	punct	4:punct	_
 
@@ -323071,7 +323071,7 @@
 1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	spilt	spilt	VERB	VBD	_	0	root	0:root	_
 3	little	little	ADJ	JJ	_	4	amod	4:amod	_
-4	bit	bit	NOUN	NN	_	5	obl:npmod	5:obl:npmod	_
+4	bit	bit	NOUN	NN	_	5	nmod	5:nmod	_
 5	milk	milk	NOUN	NN	_	2	obj	2:obj	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -422716,7 +422716,7 @@
 2	does	do	AUX	VBZ	_	3	aux	3:aux	_
 3	look	look	VERB	VB	_	0	root	0:root	_
 4	a	a	DET	DT	_	5	det	5:det	_
-5	little	little	ADJ	JJ	_	7	obl:npmod	7:obl:npmod	_
+5	little	little	ADJ	JJ	_	6	obl:npmod	6:obl:npmod	_
 6	like	like	ADP	IN	_	7	case	7:case	_
 7	Peanuts	Peanuts	PROPN	NNP	_	3	obl	3:obl:like	_
 8-9	doesn't	_	_	_	_	_	_	_	_
@@ -477521,7 +477521,7 @@
 3	the	the	DET	DT	_	4	det	4:det	_
 4	arrow	arrow	NOUN	NN	_	1	nsubj	1:nsubj	_
 5	over	over	ADP	IN	_	6	case	6:case	_
-6	there	there	ADV	RB	_	4	obl	4:obl:over	SpaceAfter=No
+6	there	there	ADV	RB	_	4	nmod	4:nmod	SpaceAfter=No
 7	?	?	PUNCT	?	_	1	punct	1:punct	_
 
 # sent_id = 25207
@@ -485486,7 +485486,7 @@
 7	right	right	ADV	RB	_	10	advmod	10:advmod	_
 8	about	about	ADP	IN	_	10	case	10:case	_
 9	that	that	DET	DT	_	10	det	10:det	_
-10	high	high	ADJ	JJ	_	5	obl:npmod	5:obl:npmod	SpaceAfter=No
+10	high	high	ADJ	JJ	_	5	amod	5:amod	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 25629
@@ -610145,7 +610145,7 @@
 5	n't	not	PART	RB	_	6	advmod	6:advmod	_
 6	use	use	VERB	VB	_	0	root	0:root	_
 7	six	six	NUM	CD	_	8	nummod	8:nummod	_
-8	year	year	NOUN	NN	_	9	obl:npmod	9:obl:npmod	_
+8	year	year	NOUN	NN	_	9	compound	9:compound	_
 9	olds	old	NOUN	NNS	_	6	obj	6:obj	_
 10	in	in	ADP	IN	_	12	case	12:case	_
 11	my	my	PRON	PRP$	_	12	nmod:poss	12:nmod:poss	_
