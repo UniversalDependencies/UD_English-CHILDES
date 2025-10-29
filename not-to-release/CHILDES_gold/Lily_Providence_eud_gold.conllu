@@ -533,7 +533,7 @@
 # text = Wait a minute.
 1	Wait	wait	VERB	VB	_	0	root	0:root	_
 2	a	a	DET	DT	_	3	det	3:det	_
-3	minute	minute	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+3	minute	minute	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 17222641
@@ -6182,7 +6182,7 @@
 1	Only	only	ADV	RB	_	3	advmod	3:advmod	_
 2	five	five	NUM	CD	_	3	nummod	3:nummod	_
 3	books	book	NOUN	NNS	_	0	root	0:root	_
-4	tonight	tonight	NOUN	NN	_	3	nmod:tmod	3:nmod:tmod	_
+4	tonight	tonight	NOUN	NN	_	3	nmod:unmarked	3:nmod:unmarked	_
 5	mommy	mommy	NOUN	NN	_	3	vocative	3:vocative	_
 6	she	she	PRON	PRP	_	7	nsubj	7:nsubj	_
 7	says	say	VERB	VBZ	_	3	parataxis	3:parataxis	SpaceAfter=No
@@ -7154,7 +7154,7 @@
 6	hang	hang	VERB	VB	_	2	parataxis	2:parataxis	_
 7	on	on	ADP	IN	_	6	compound:prt	6:compound:prt	_
 8	a	a	DET	DT	_	9	det	9:det	_
-9	second	second	ADJ	JJ	_	6	obl:tmod	6:obl:tmod	_
+9	second	second	ADJ	JJ	_	6	obl:unmarked	6:obl:unmarked	_
 10	mommy	mommy	NOUN	NN	_	11	nsubj	11:nsubj|12:nsubj:xsubj	_
 11	has	have	VERB	VBZ	_	2	parataxis	2:parataxis	_
 12	to	to	PART	TO	_	11	xcomp	11:xcomp	SpaceAfter=No
@@ -7179,7 +7179,7 @@
 8	me	I	PRON	PRP	_	6	obl	6:obl:to	_
 9	the	the	DET	DT	_	11	det	11:det	_
 10	other	other	ADJ	JJ	_	11	amod	11:amod	_
-11	day	day	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+11	day	day	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 16891985
@@ -8413,7 +8413,7 @@
 # type = trail off
 # text = Last summer when Olivia.
 1	Last	last	ADJ	JJ	_	2	amod	2:amod	_
-2	summer	summer	NOUN	NN	_	3	obl:tmod	3:obl:tmod	_
+2	summer	summer	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	_
 3	when	when	ADV	WRB	_	4	advmod	4:advmod	_
 4	Olivia	Olivia	PROPN	NNP	_	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -8475,7 +8475,7 @@
 8	saying	say	VERB	VBG	_	0	root	0:root	_
 9	something	something	PRON	NN	_	8	obj	8:obj	_
 10	this	this	DET	DT	_	11	det	11:det	_
-11	week	week	NOUN	NN	_	8	obl:tmod	8:obl:tmod	SpaceAfter=No
+11	week	week	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	8:punct	_
 
 # sent_id = 16980637
@@ -8488,7 +8488,7 @@
 # type = declarative
 # text = Last summer when Olivia was little her mother showed her how to make sand castles.
 1	Last	last	ADJ	JJ	_	2	amod	2:amod	_
-2	summer	summer	NOUN	NN	_	9	obl:tmod	9:obl:tmod	_
+2	summer	summer	NOUN	NN	_	9	obl:unmarked	9:obl:unmarked	_
 3	when	when	SCONJ	WRB	_	6	mark	6:mark	_
 4	Olivia	Olivia	PROPN	NNP	_	6	nsubj	6:nsubj	_
 5	was	be	AUX	VBD	_	6	cop	6:cop	_
@@ -8625,7 +8625,7 @@
 # speaker_role = Mother
 # type = declarative
 # text = Yesterday my niece and nephew were here.
-1	Yesterday	yesterday	NOUN	NN	_	7	obl:tmod	7:obl:tmod	_
+1	Yesterday	yesterday	NOUN	NN	_	7	obl:unmarked	7:obl:unmarked	_
 2	my	my	PRON	PRP$	_	3	nmod:poss	3:nmod:poss	_
 3	niece	niece	NOUN	NN	_	7	nsubj	7:nsubj	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
@@ -9138,7 +9138,7 @@
 # speaker_role = Mother
 # type = declarative
 # text = Everyday Olivia is suppose to take a nap.
-1	Everyday	everyday	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+1	Everyday	everyday	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 2	Olivia	Olivia	PROPN	NNP	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
 3	is	be	AUX	VBZ	_	4	aux	4:aux	_
 4	suppose	suppose	VERB	VBN	_	0	root	0:root	_
@@ -12453,7 +12453,7 @@
 9	suppose	suppose	VERB	VBN	_	3	ccomp	3:ccomp	_
 10	to	to	PART	TO	_	11	mark	11:mark	_
 11	be	be	AUX	VB	_	9	xcomp	9:xcomp	_
-12	today	today	NOUN	NN	_	9	obl:tmod	9:obl:tmod	SpaceAfter=No
+12	today	today	NOUN	NN	_	9	obl:unmarked	9:obl:unmarked	SpaceAfter=No
 13	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 16909658
@@ -13025,7 +13025,7 @@
 5	for	for	ADP	IN	_	6	case	6:case	_
 6	dinner	dinner	NOUN	NN	_	3	obl	3:obl:for	_
 7	last	last	ADJ	JJ	_	8	amod	8:amod	_
-8	night	night	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+8	night	night	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 9	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 16917048
@@ -14368,7 +14368,7 @@
 4	driving	drive	VERB	VBG	_	0	root	0:root	_
 5	the	the	DET	DT	_	7	det	7:det	_
 6	other	other	ADJ	JJ	_	7	amod	7:amod	_
-7	day	day	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+7	day	day	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 8	and	and	CCONJ	CC	_	11	cc	11:cc	_
 9	it	it	PRON	PRP	_	11	nsubj	11:nsubj	_
 10	was	be	AUX	VBD	_	11	aux	11:aux	_
