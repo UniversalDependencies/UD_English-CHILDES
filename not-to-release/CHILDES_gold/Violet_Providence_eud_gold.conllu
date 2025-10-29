@@ -946,7 +946,7 @@
 # text = Wait a minute.
 1	Wait	wait	VERB	VB	_	0	root	0:root	_
 2	a	a	DET	DT	_	3	det	3:det	_
-3	minute	minute	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+3	minute	minute	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 17222641

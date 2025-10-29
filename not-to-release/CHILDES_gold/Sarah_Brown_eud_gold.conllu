@@ -1082,7 +1082,7 @@
 2	did	do	AUX	VBD	_	4	aux	4:aux	_
 3	you	you	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	go	go	VERB	VB	_	0	root	0:root	_
-5	yesterday	yesterday	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+5	yesterday	yesterday	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1908516
@@ -2801,7 +2801,7 @@
 # text = Wait a minute.
 1	Wait	wait	VERB	VB	_	0	root	0:root	_
 2	a	a	DET	DT	_	3	det	3:det	_
-3	minute	minute	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+3	minute	minute	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1882079
@@ -8806,7 +8806,7 @@
 6	hello	hello	INTJ	UH	_	5	obj	5:obj	_
 7	to	to	ADP	IN	_	8	case	8:case	_
 8	Gloria	Gloria	PROPN	NNP	_	5	obl	5:obl:to	_
-9	today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+9	today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1811191
@@ -9248,7 +9248,7 @@
 2	got	get	VERB	VBD	_	0	root	0:root	_
 3	this	this	DET	DT	_	2	obj	2:obj	_
 4	last	last	ADJ	JJ	_	5	amod	5:amod	_
-5	year	year	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	year	year	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1811505
@@ -9582,7 +9582,7 @@
 2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	see	see	VERB	VB	_	0	root	0:root	_
 4	Robin	Robin	PROPN	NNP	_	3	obj	3:obj	_
-5	Saturday	Saturday	PROPN	NNP	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	Saturday	Saturday	PROPN	NNP	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1811725
@@ -9672,7 +9672,7 @@
 4	n't	not	PART	RB	_	5	advmod	5:advmod	_
 5	see	see	VERB	VB	_	0	root	0:root	_
 6	Richard	Richard	PROPN	NNP	_	5	obj	5:obj	_
-7	yesterday	yesterday	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+7	yesterday	yesterday	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1811778
@@ -9841,7 +9841,7 @@
 5	at	at	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	_	7	det	7:det	_
 7	square	square	NOUN	NN	_	3	obl	3:obl:at	_
-8	Saturday	Saturday	PROPN	NNP	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+8	Saturday	Saturday	PROPN	NNP	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1811903
@@ -9962,7 +9962,7 @@
 1	You	you	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	showing	show	VERB	VBG	_	0	root	0:root	_
 3	off	off	ADP	RP	_	2	compound:prt	2:compound:prt	_
-4	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+4	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 5	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1811994
@@ -11586,7 +11586,7 @@
 4	ta	to	PART	TO	_	5	mark	5:mark	_
 5	go	go	VERB	VB	_	3	xcomp	3:xcomp	_
 6	next	next	ADJ	JJ	_	7	amod	7:amod	_
-7	Saturday	Saturday	PROPN	NNP	_	5	obl:tmod	5:obl:tmod	_
+7	Saturday	Saturday	PROPN	NNP	_	5	obl:unmarked	5:obl:unmarked	_
 8	huh	huh	INTJ	UH	_	3	discourse	3:discourse	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -13070,7 +13070,7 @@
 2	she	she	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	does	do	VERB	VBZ	_	0	root	0:root	_
 4	that	that	PRON	DT	_	3	obj	3:obj	_
-5	everytime	everytime	ADV	RB	_	3	obl:tmod	3:obl:tmod	_
+5	everytime	everytime	ADV	RB	_	3	obl:unmarked	3:obl:unmarked	_
 6	she	she	PRON	PRP	_	7	nsubj	7:nsubj	_
 7	finishes	finish	VERB	VBZ	_	5	acl:relcl	5:acl:relcl	_
 8	anything	anything	PRON	NN	_	7	obj	7:obj	SpaceAfter=No
@@ -18771,7 +18771,7 @@
 # speaker_role = Target_Child
 # type = declarative
 # text = Easter my Bunny a coming.
-1	Easter	Easter	VERB	VB	_	5	obl:tmod	5:obl:tmod	_
+1	Easter	Easter	VERB	VB	_	5	obl:unmarked	5:obl:unmarked	_
 2	my	my	PRON	PRP$	_	3	nmod:poss	3:nmod:poss	_
 3	Bunny	Bunny	PROPN	NNP	_	5	nsubj	5:nsubj	_
 4	a	a	DET	DT	_	5	discourse	5:discourse	_
@@ -20825,7 +20825,7 @@
 7	a	a	DET	DT	_	9	det	9:det	_
 8	new	new	ADJ	JJ	_	9	amod	9:amod	_
 9	hat	hat	NOUN	NN	_	6	obj	6:obj	_
-10	today	today	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+10	today	today	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 11	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1824151
@@ -21341,7 +21341,7 @@
 2	how	how	ADV	WRB	_	0	root	0:root	_
 3	are	be	AUX	VBP	_	2	cop	2:cop	_
 4	you	you	PRON	PRP	_	2	nsubj	2:nsubj	_
-5	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1824394
@@ -21615,7 +21615,7 @@
 13	Richard	Richard	PROPN	NNP	_	11	conj	5:obl:about|11:conj:and	_
 14	the	the	DET	DT	_	16	det	16:det	_
 15	other	other	ADJ	JJ	_	16	amod	16:amod	_
-16	day	day	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+16	day	day	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 17	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1824519
@@ -21901,7 +21901,7 @@
 5	Daddy	Daddy	PROPN	NNP	_	3	conj	3:conj:and|6:nsubj	_
 6	do	do	VERB	VB	_	0	root	0:root	_
 7	last	last	ADJ	JJ	_	8	amod	8:amod	_
-8	night	night	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+8	night	night	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 9	?	?	PUNCT	?	_	6	punct	6:punct	_
 
 # sent_id = 1824666
@@ -23304,7 +23304,7 @@
 3	to	to	ADP	IN	_	5	case	5:case	_
 4	dancing	dance	VERB	VBG	_	5	compound	5:compound	_
 5	school	school	NOUN	NN	_	2	obl	2:obl:to	_
-6	tomorrow	tomorrow	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+6	tomorrow	tomorrow	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 7	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1825427
@@ -24359,7 +24359,7 @@
 8	to	to	ADP	IN	_	9	case	9:case	_
 9	me	I	PRON	PRP	_	7	obl	7:obl:to	_
 10	this	this	DET	DT	_	11	det	11:det	_
-11	morning	morning	NOUN	NN	_	7	obl:tmod	7:obl:tmod	_
+11	morning	morning	NOUN	NN	_	7	obl:unmarked	7:obl:unmarked	_
 12	when	when	SCONJ	WRB	_	14	mark	14:mark	_
 13	I	I	PRON	PRP	_	14	nsubj	14:nsubj	_
 14	put	put	VERB	VBD	_	7	advcl	7:advcl:when	_
@@ -24900,7 +24900,7 @@
 6	clowns	clown	NOUN	NNS	_	2	nmod	2:nmod:about	_
 7	you	you	PRON	PRP	_	8	nsubj	8:nsubj	_
 8	saw	see	VERB	VBD	_	6	acl:relcl	6:acl:relcl	_
-9	Sunday	Sunday	PROPN	NNP	_	8	obl:tmod	8:obl:tmod	SpaceAfter=No
+9	Sunday	Sunday	PROPN	NNP	_	8	obl:unmarked	8:obl:unmarked	SpaceAfter=No
 10	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1826129
@@ -25393,7 +25393,7 @@
 3	gon	go	VERB	VBG	_	0	root	0:root	_
 4	na	to	PART	TO	_	5	mark	5:mark	_
 5	go	go	VERB	VB	_	3	xcomp	3:xcomp	_
-6	Sunday	Sunday	PROPN	NNP	_	5	obl:tmod	5:obl:tmod	_
+6	Sunday	Sunday	PROPN	NNP	_	5	obl:unmarked	5:obl:unmarked	_
 7	huh	huh	INTJ	UH	_	3	discourse	3:discourse	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -25521,7 +25521,7 @@
 4	go	go	VERB	VB	_	2	xcomp	2:xcomp	_
 5	again	again	ADV	RB	_	4	advmod	4:advmod	_
 6	next	next	ADJ	JJ	_	7	amod	7:amod	_
-7	year	year	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+7	year	year	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 8	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1826365
@@ -25674,7 +25674,7 @@
 2	see	see	VERB	VBP	_	0	root	0:root	_
 3	Fred	Fred	PROPN	NNP	_	2	obj	2:obj	_
 4	last	last	ADJ	JJ	_	5	amod	5:amod	_
-5	night	night	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	night	night	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1826409
@@ -25982,7 +25982,7 @@
 2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	see	see	VERB	VB	_	0	root	0:root	_
 4	Nana	Nana	PROPN	NNP	_	3	obj	3:obj	_
-5	today	today	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	today	today	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1826503
@@ -25999,7 +25999,7 @@
 3	see	see	VERB	VB	_	0	root	0:root	_
 4	her	she	PRON	PRP	_	3	obj	3:obj	_
 5	this	this	DET	DT	_	6	det	6:det	_
-6	morning	morning	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+6	morning	morning	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 7	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1826505
@@ -26505,7 +26505,7 @@
 5	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
 6	late	late	ADV	RB	_	4	advmod	4:advmod	_
 7	last	last	ADJ	JJ	_	8	amod	8:amod	_
-8	night	night	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+8	night	night	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 9	huh	huh	INTJ	UH	_	4	discourse	4:discourse	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -26669,7 +26669,7 @@
 1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	knock	knock	VERB	VBP	_	0	root	0:root	_
 3	tv	tv	NOUN	NN	_	2	obj	2:obj	_
-4	yesterday	yesterday	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+4	yesterday	yesterday	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1826754
@@ -30886,7 +30886,7 @@
 1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	take	take	VERB	VBP	_	0	root	0:root	_
 3	bath	bath	NOUN	NN	_	2	obj	2:obj	_
-4	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+4	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1831035
@@ -33854,7 +33854,7 @@
 5	down	down	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	_	7	det	7:det	_
 7	beach	beach	NOUN	NN	_	4	obl	4:obl:down	_
-8	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+8	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 9	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1839286
@@ -36191,7 +36191,7 @@
 4	a	a	DET	DT	_	6	det	6:det	_
 5	good	good	ADJ	JJ	_	6	amod	6:amod	_
 6	humor	humor	NOUN	NN	_	0	root	0:root	_
-7	today	today	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+7	today	today	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = 1841697
@@ -37555,7 +37555,7 @@
 4	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
 5	been	be	AUX	VBN	_	6	aux	6:aux	_
 6	doing	do	VERB	VBG	_	3	acl:relcl	3:acl:relcl	_
-7	today	today	NOUN	NN	_	6	obl:tmod	6:obl:tmod	_
+7	today	today	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	_
 8	sneezing	sneezing	NOUN	NN	_	3	dislocated	3:dislocated	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -37601,7 +37601,7 @@
 2	crossed	cross	VERB	VBD	_	0	root	0:root	_
 3	the	the	DET	DT	_	4	det	4:det	_
 4	street	street	NOUN	NN	_	2	obj	2:obj	_
-5	yesterday	yesterday	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+5	yesterday	yesterday	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 6	uhhuh	uhhuh	INTJ	UH	_	2	discourse	2:discourse	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -37752,7 +37752,7 @@
 7	say	say	VERB	VB	_	5	xcomp	5:xcomp	_
 8	all	all	DET	PDT	_	10	det:predet	10:det:predet	_
 9	the	the	DET	DT	_	10	det	10:det	_
-10	time	time	NOUN	NN	_	7	obl:tmod	7:obl:tmod	SpaceAfter=No
+10	time	time	NOUN	NN	_	7	obl:unmarked	7:obl:unmarked	SpaceAfter=No
 11	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1842764
@@ -39647,7 +39647,7 @@
 5	bring	bring	VERB	VB	_	2	xcomp	2:xcomp	_
 6	them	they	PRON	PRP	_	5	obj	5:obj	_
 7	out	out	ADP	RP	_	5	compound:prt	5:compound:prt	_
-8	one	one	NUM	CD	_	5	obl:tmod	5:obl:tmod	_
+8	one	one	NUM	CD	_	5	obl:unmarked	5:obl:unmarked	_
 9	by	by	ADP	IN	_	10	case	10:case	_
 10	one	one	NUM	CD	_	8	nmod	8:nmod:by	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -43709,8 +43709,8 @@
 8	's	's	PART	POS	_	7	case	7:case	_
 9	place	place	NOUN	NN	_	5	obl	5:obl:to	_
 10	tonight	tonight	NOUN	NN	_	12	reparandum	12:reparandum	_
-11	tomorrow	tomorrow	NOUN	NN	_	12	nmod:tmod	12:nmod:tmod	_
-12	night	night	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+11	tomorrow	tomorrow	NOUN	NN	_	12	nmod:unmarked	12:nmod:unmarked	_
+12	night	night	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1854709
@@ -44731,7 +44731,7 @@
 2	'd	would	AUX	MD	_	4	aux	4:aux	_
 3	cha	cha	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	go	go	VERB	VB	_	0	root	0:root	_
-5	yesterday	yesterday	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+5	yesterday	yesterday	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1880374
@@ -44884,7 +44884,7 @@
 # speaker_role = Mother
 # type = declarative
 # text = Friday you went to school at Missus Peters's.
-1	Friday	Friday	PROPN	NNP	_	3	obl:tmod	3:obl:tmod	_
+1	Friday	Friday	PROPN	NNP	_	3	obl:unmarked	3:obl:unmarked	_
 2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	went	go	VERB	VBD	_	0	root	0:root	_
 4	to	to	ADP	IN	_	5	case	5:case	_
@@ -45082,7 +45082,7 @@
 3	had	have	AUX	VBD	_	0	root	0:root	_
 4	dark	dark	ADJ	JJ	_	3	obj	3:obj	_
 5	here	here	ADV	RB	_	3	advmod	3:advmod	_
-6	yesterday	yesterday	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+6	yesterday	yesterday	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1856099
@@ -45174,7 +45174,7 @@
 # speaker_role = Mother
 # type = quotation next line
 # text = Everytime she does anything now it's.
-1	Everytime	everytime	ADV	RB	_	7	obl:tmod	7:obl:tmod	_
+1	Everytime	everytime	ADV	RB	_	7	obl:unmarked	7:obl:unmarked	_
 2	she	she	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	does	do	VERB	VBZ	_	1	acl:relcl	1:acl:relcl	_
 4	anything	anything	PRON	NN	_	3	obj	3:obj	_
@@ -45232,14 +45232,14 @@
 # type = question
 # text = What's the matter with you today?
 1-2	What's	_	_	_	_	_	_	_	_
-1	What	what	PRON	WP	_	0	root	0:root	_
-2	's	be	AUX	VBZ	_	1	cop	1:cop	_
+1	What	what	PRON	WP	_	4	nsubj	4:nsubj	_
+2	's	be	AUX	VBZ	_	4	cop	4:cop	_
 3	the	the	DET	DT	_	4	det	4:det	_
-4	matter	matter	NOUN	NN	_	1	nsubj	1:nsubj	_
+4	matter	matter	NOUN	NN	_	0	root	0:root	_
 5	with	with	ADP	IN	_	6	case	6:case	_
 6	you	you	PRON	PRP	_	4	nmod	4:nmod:with	_
-7	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
-8	?	?	PUNCT	?	_	1	punct	1:punct	_
+7	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
+8	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1856298
 # childes_toks = you look kind of uh
@@ -46088,7 +46088,7 @@
 3	ta	to	PART	TO	_	4	mark	4:mark	_
 4	wear	wear	VERB	VB	_	2	xcomp	2:xcomp	_
 5	that	that	PRON	DT	_	4	obj	4:obj	_
-6	tomorrow	tomorrow	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+6	tomorrow	tomorrow	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1856986
@@ -47187,7 +47187,7 @@
 # text = The other night all over the shower curtain all over the floor.
 1	The	the	DET	DT	_	3	det	3:det	_
 2	other	other	ADJ	JJ	_	3	amod	3:amod	_
-3	night	night	NOUN	NN	_	8	nmod:tmod	8:nmod:tmod	_
+3	night	night	NOUN	NN	_	8	nmod:unmarked	8:nmod:unmarked	_
 4	all	all	ADV	RB	_	8	advmod	8:advmod	_
 5	over	over	ADP	IN	_	8	case	8:case	_
 6	the	the	DET	DT	_	8	det	8:det	_
@@ -47544,7 +47544,7 @@
 3	out	out	ADV	RB	_	2	advmod	2:advmod	_
 4	and	and	CCONJ	CC	_	5	cc	5:cc	_
 5	play	play	VERB	VB	_	2	conj	2:conj:and	_
-6	today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+6	today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 7	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1857751
@@ -47957,7 +47957,7 @@
 1	What	what	PRON	WP	_	3	nsubj	3:nsubj	_
 2	's	be	AUX	VBZ	_	3	aux	3:aux	_
 3	coming	come	VERB	VBG	_	0	root	0:root	_
-4	Wednesday	Wednesday	PROPN	NNP	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+4	Wednesday	Wednesday	PROPN	NNP	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 5	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1857918
@@ -47978,7 +47978,7 @@
 6	ate	eat	VERB	VBD	_	3	advcl	3:advcl:because	_
 7	your	you	PRON	PRP$	_	8	nmod:poss	8:nmod:poss	_
 8	potatoes	potato	NOUN	NNS	_	6	obj	6:obj	_
-9	yesterday	yesterday	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+9	yesterday	yesterday	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1857921
@@ -48446,7 +48446,7 @@
 9	's	's	PART	POS	_	8	case	8:case	_
 10	the	the	DET	DT	_	12	det	12:det	_
 11	other	other	ADJ	JJ	_	12	amod	12:amod	_
-12	night	night	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+12	night	night	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 13	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1858116
@@ -48621,7 +48621,7 @@
 1	Um	um	INTJ	UH	_	6	discourse	6:discourse	_
 2	but	but	CCONJ	CC	_	6	cc	6:cc	_
 3	other	other	ADJ	JJ	_	4	amod	4:amod	_
-4	times	time	NOUN	NNS	_	6	obl:tmod	6:obl:tmod	_
+4	times	time	NOUN	NNS	_	6	obl:unmarked	6:obl:unmarked	_
 5	she	she	PRON	PRP	_	6	nsubj	6:nsubj	_
 6-7	won't	_	_	_	_	_	_	_	_
 6	wo	will	AUX	MD	_	0	root	0:root	_
@@ -48667,7 +48667,7 @@
 3	did	do	AUX	VBD	_	5	aux	5:aux	_
 4	n't	not	PART	RB	_	5	advmod	5:advmod	_
 5	go	go	VERB	VB	_	0	root	0:root	_
-6	yesterday	yesterday	NOUN	NN	_	5	obl:tmod	5:obl:tmod	_
+6	yesterday	yesterday	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	_
 7	with	with	ADP	IN	_	8	case	8:case	_
 8	Daddy	Daddy	PROPN	NNP	_	5	obl	5:obl:with	SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -48965,7 +48965,7 @@
 3	what	what	PRON	WP	_	5	obj	5:obj	_
 4	ya	ya	PRON	PRP	_	5	nsubj	5:nsubj	_
 5	saw	see	VERB	VBD	_	1	ccomp	1:ccomp	_
-6	yesterday	yesterday	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+6	yesterday	yesterday	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1858392
@@ -49429,7 +49429,7 @@
 1	They	they	PRON	PRP	_	3	nsubj	3:nsubj	_
 2	're	be	AUX	VBP	_	3	aux	3:aux	_
 3	coming	come	VERB	VBG	_	0	root	0:root	_
-4	tonight	tonight	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+4	tonight	tonight	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1858536
@@ -49596,14 +49596,14 @@
 # text = Sarah what's the matter with you today.
 1	Sarah	Sarah	PROPN	NNP	_	2	vocative	2:vocative	_
 2-3	what's	_	_	_	_	_	_	_	_
-2	what	what	PRON	WP	_	0	root	0:root	_
-3	's	be	AUX	VBZ	_	2	cop	2:cop	_
+2	what	what	PRON	WP	_	5	nsubj	5:nsubj	_
+3	's	be	AUX	VBZ	_	5	cop	5:cop	_
 4	the	the	DET	DT	_	5	det	5:det	_
-5	matter	matter	NOUN	NN	_	2	nsubj	2:nsubj	_
+5	matter	matter	NOUN	NN	_	0	root	0:root	_
 6	with	with	ADP	IN	_	7	case	7:case	_
 7	you	you	PRON	PRP	_	5	nmod	5:nmod:with	_
-8	today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
-9	.	.	PUNCT	.	_	2	punct	2:punct	_
+8	today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1858614
 # childes_toks = I said stupid old hattie
@@ -50250,7 +50250,7 @@
 4	down	down	ADP	IN	_	0	root	0:root	_
 5	the	the	DET	DT	_	7	det	7:det	_
 6	other	other	ADJ	JJ	_	7	amod	7:amod	_
-7	night	night	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+7	night	night	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1858849
@@ -50401,7 +50401,7 @@
 1	And	and	CCONJ	CC	_	7	cc	7:cc	_
 2	then	then	ADV	RB	_	7	advmod	7:advmod	_
 3	some	some	DET	DT	_	4	det	4:det	_
-4	week	week	NOUN	NN	_	7	obl:tmod	7:obl:tmod	_
+4	week	week	NOUN	NN	_	7	obl:unmarked	7:obl:unmarked	_
 5-6	you're	_	_	_	_	_	_	_	_
 5	you	you	PRON	PRP	_	7	nsubj	7:nsubj	_
 6	're	be	AUX	VBP	_	7	aux	7:aux	_
@@ -50506,7 +50506,7 @@
 7	school	school	NOUN	NN	_	5	obl	5:obl:in	_
 8	the	the	DET	DT	_	10	det	10:det	_
 9	other	other	ADJ	JJ	_	10	amod	10:amod	_
-10	day	day	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+10	day	day	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1858998
@@ -50798,7 +50798,7 @@
 4	do	do	VERB	VB	_	0	root	0:root	_
 5	the	the	DET	DT	_	6	det	6:det	_
 6	backs	back	NOUN	NNS	_	4	obj	4:obj	_
-7	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+7	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1859050
@@ -52753,7 +52753,7 @@
 # text = He listen today?
 1	He	he	PRON	PRP	_	2	nsubj	2:nsubj	_
 2	listen	listen	VERB	VBP	_	0	root	0:root	_
-3	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+3	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	2:punct	_
 
 # sent_id = 1859953
@@ -53397,7 +53397,7 @@
 2	got	get	VERB	VBD	_	0	root	0:root	_
 3	a	a	DET	DT	_	4	det	4:det	_
 4	splinter	splinter	NOUN	NN	_	2	obj	2:obj	_
-5	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1860360
@@ -53430,7 +53430,7 @@
 2	got	get	VERB	VBD	_	0	root	0:root	_
 3	a	a	DET	DT	_	4	det	4:det	_
 4	splinter	splinter	NOUN	NN	_	2	obj	2:obj	_
-5	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+5	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 6	Kent	Kent	PROPN	NNP	_	2	vocative	2:vocative	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -53813,7 +53813,7 @@
 # speaker_role = Target_Child
 # type = declarative
 # text = Yesterday he took it.
-1	Yesterday	yesterday	NOUN	NN	_	3	obl:tmod	3:obl:tmod	_
+1	Yesterday	yesterday	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	_
 2	he	he	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	took	take	VERB	VBD	_	0	root	0:root	_
 4	it	it	PRON	PRP	_	3	obj	3:obj	SpaceAfter=No
@@ -54630,7 +54630,7 @@
 6	did	do	AUX	VBD	_	8	aux	8:aux	_
 7	you	you	PRON	PRP	_	8	nsubj	8:nsubj	_
 8	see	see	VERB	VB	_	0	root	0:root	_
-9	yesterday	yesterday	NOUN	NN	_	8	obl:tmod	8:obl:tmod	SpaceAfter=No
+9	yesterday	yesterday	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	SpaceAfter=No
 10	?	?	PUNCT	?	_	8	punct	8:punct	_
 
 # sent_id = 1869169
@@ -54888,7 +54888,7 @@
 # type = question
 # text = This summer I hope?
 1	This	this	DET	DT	_	2	det	2:det	_
-2	summer	summer	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+2	summer	summer	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 3	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	hope	hope	VERB	VBP	_	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	4:punct	_
@@ -55323,7 +55323,7 @@
 # text = Wait a minute Sarah.
 1	Wait	wait	VERB	VB	_	0	root	0:root	_
 2	a	a	DET	DT	_	3	det	3:det	_
-3	minute	minute	NOUN	NN	_	1	obl:tmod	1:obl:tmod	_
+3	minute	minute	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	_
 4	Sarah	Sarah	PROPN	NNP	_	1	vocative	1:vocative	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
@@ -55664,7 +55664,7 @@
 5	in	in	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	_	7	det	7:det	_
 7	carriage	carriage	NOUN	NN	_	2	obl	2:obl:in	_
-8	today	today	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+8	today	today	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 9	in	in	ADP	IN	_	11	case	11:case	_
 10	the	the	DET	DT	_	11	det	11:det	_
 11	roses	rose	NOUN	NNS	_	2	obl	2:obl:in	SpaceAfter=No
@@ -55821,7 +55821,7 @@
 12	your	you	PRON	PRP$	_	13	nmod:poss	13:nmod:poss	_
 13	trip	trip	NOUN	NN	_	9	obl	9:obl:about	_
 14	this	this	DET	DT	_	15	det	15:det	_
-15	week	week	NOUN	NN	_	9	obl:tmod	9:obl:tmod	SpaceAfter=No
+15	week	week	NOUN	NN	_	9	obl:unmarked	9:obl:unmarked	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = 1871003
@@ -55837,7 +55837,7 @@
 2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	went	go	VERB	VBD	_	0	root	0:root	_
 4	this	this	DET	DT	_	5	det	5:det	_
-5	week	week	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	week	week	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1871014
@@ -57757,7 +57757,7 @@
 3	Melissa	Melissa	PROPN	NNP	_	2	iobj	2:iobj	_
 4	what	what	PRON	WP	_	5	nsubj	5:nsubj	_
 5	happened	happen	VERB	VBD	_	2	ccomp	2:ccomp	_
-6	yesterday	yesterday	NOUN	NN	_	5	obl:tmod	5:obl:tmod	_
+6	yesterday	yesterday	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	_
 7	with	with	ADP	IN	_	9	case	9:case	_
 8	your	you	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_
 9	balloon	balloon	NOUN	NN	_	5	obl	5:obl:with	SpaceAfter=No
@@ -58037,7 +58037,7 @@
 # type = trail off
 # text = Eleven o'clock my Mother and I are sitting here.
 1	Eleven	eleven	NUM	CD	_	2	nummod	2:nummod	_
-2	o'clock	o'clock	NOUN	NN	_	8	obl:tmod	8:obl:tmod	_
+2	o'clock	o'clock	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	_
 3	my	my	PRON	PRP$	_	4	nmod:poss	4:nmod:poss	_
 4	Mother	mother	NOUN	NN	_	8	nsubj	8:nsubj	_
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_
@@ -58131,7 +58131,7 @@
 5	there	there	ADV	RB	_	0	root	0:root	_
 6	about	about	ADV	RB	_	7	advmod	7:advmod	_
 7	four	four	NUM	CD	_	8	nummod	8:nummod	_
-8	hours	hour	NOUN	NNS	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+8	hours	hour	NOUN	NNS	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1872377
@@ -58419,7 +58419,7 @@
 4	Miss	Miss	PROPN	NNP	_	3	obj	3:obj	_
 5	Carney	Carney	PROPN	NNP	_	4	flat	4:flat	_
 6	this	this	DET	DT	_	7	det	7:det	_
-7	year	year	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+7	year	year	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 8	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1872509
@@ -58692,7 +58692,7 @@
 6	um	um	INTJ	UH	_	5	discourse	5:discourse	_
 7	William	William	PROPN	NNP	_	5	flat	5:flat	_
 8	Claire	Claire	PROPN	NNP	_	7	flat	7:flat	_
-9	today	today	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+9	today	today	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 10	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1872611
@@ -59301,7 +59301,7 @@
 1	Here	here	ADV	RB	_	2	discourse	2:discourse	_
 2	wait	wait	VERB	VB	_	0	root	0:root	_
 3	a	a	DET	DT	_	4	det	4:det	_
-4	minute	minute	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+4	minute	minute	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1872756
@@ -59402,7 +59402,7 @@
 5	me	I	PRON	PRP	_	4	obj	4:obj|6:nsubj:xsubj	_
 6	crazy	crazy	ADJ	JJ	_	4	xcomp	4:xcomp	_
 7	all	all	DET	DT	_	8	det	8:det	_
-8	morning	morning	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+8	morning	morning	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1872798
@@ -59474,7 +59474,7 @@
 6	play	play	VERB	VB	_	3	conj	3:conj:and	_
 7	with	with	ADP	IN	_	8	case	8:case	_
 8	Donna	Donna	PROPN	NNP	_	6	obl	6:obl:with	_
-9	today	today	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+9	today	today	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 10	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1872812
@@ -59574,7 +59574,7 @@
 2	we	we	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	did	do	VERB	VBD	_	0	root	0:root	_
 4	last	last	ADJ	JJ	_	5	amod	5:amod	_
-5	year	year	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	year	year	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1872833
@@ -59594,7 +59594,7 @@
 6	with	with	ADP	IN	_	7	case	7:case	_
 7	Donna	Donna	PROPN	NNP	_	5	obl	5:obl:with	_
 8	this	this	DET	DT	_	9	det	9:det	_
-9	afternoon	afternoon	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+9	afternoon	afternoon	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1872837
@@ -60219,7 +60219,7 @@
 5	my	my	PRON	PRP$	_	6	nmod:poss	6:nmod:poss	_
 6	plant	plant	NOUN	NN	_	4	obj	4:obj	_
 7	all	all	DET	DT	_	8	det	8:det	_
-8	week	week	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+8	week	week	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1872998
@@ -60271,7 +60271,7 @@
 5	poodle	poodle	NOUN	NN	_	3	obj	3:obj	_
 6	the	the	DET	DT	_	8	det	8:det	_
 7	other	other	ADJ	JJ	_	8	amod	8:amod	_
-8	day	day	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+8	day	day	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1873049
@@ -60680,7 +60680,7 @@
 7	party	party	NOUN	NN	_	5	obj	5:obj	_
 8	here	here	ADV	RB	_	5	advmod	5:advmod	_
 9	all	all	DET	DT	_	10	det	10:det	_
-10	week	week	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+10	week	week	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1873125
@@ -61558,7 +61558,7 @@
 4	need	need	VERB	VB	_	0	root	0:root	_
 5	a	a	DET	DT	_	6	det	6:det	_
 6	blanket	blanket	NOUN	NN	_	4	obj	4:obj	_
-7	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+7	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1873310
@@ -61962,7 +61962,7 @@
 10	you	you	PRON	PRP	_	11	nsubj	11:nsubj	_
 11	did	do	VERB	VBD	_	5	advcl	5:advcl:like	_
 12	last	last	ADJ	JJ	_	13	amod	13:amod	_
-13	night	night	NOUN	NN	_	11	obl:tmod	11:obl:tmod	_
+13	night	night	NOUN	NN	_	11	obl:unmarked	11:obl:unmarked	_
 14	on	on	ADP	IN	_	17	case	17:case	_
 15	that	that	DET	DT	_	17	det	17:det	_
 16	birthday	birthday	NOUN	NN	_	17	compound	17:compound	_
@@ -62274,7 +62274,7 @@
 # text = What happened yesterday with the stickerbirds?
 1	What	what	PRON	WP	_	2	nsubj	2:nsubj	_
 2	happened	happen	VERB	VBD	_	0	root	0:root	_
-3	yesterday	yesterday	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+3	yesterday	yesterday	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 4	with	with	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	_	6	det	6:det	_
 6	stickerbirds	stickerbird	NOUN	NNS	_	2	obl	2:obl:with	SpaceAfter=No
@@ -62446,7 +62446,7 @@
 7	big	big	ADJ	JJ	_	6	conj	6:conj|9:amod	_
 8	stickerbird	stickerbird	NOUN	NN	_	9	compound	9:compound	_
 9	bush	Bush	PROPN	NNP	_	3	obl	3:obl:into	_
-10	yesterday	yesterday	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+10	yesterday	yesterday	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1873462
@@ -62784,7 +62784,7 @@
 2	the	the	DET	DT	_	3	det	3:det	_
 3	cartoons	cartoon	NOUN	NNS	_	1	obj	1:obj	_
 4	this	this	DET	DT	_	5	det	5:det	_
-5	morning	morning	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+5	morning	morning	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	1	punct	1:punct	_
 
 # sent_id = 1873514
@@ -62797,7 +62797,7 @@
 # type = question
 # text = When yesterday?
 1	When	when	SCONJ	WRB	_	0	root	0:root	_
-2	yesterday	yesterday	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+2	yesterday	yesterday	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 3	?	?	PUNCT	?	_	1	punct	1:punct	_
 
 # sent_id = 1873515
@@ -62915,7 +62915,7 @@
 5	camping	camp	VERB	VBG	_	3	xcomp	3:xcomp	_
 6	all	all	DET	PDT	_	8	det:predet	8:det:predet	_
 7	the	the	DET	DT	_	8	det	8:det	_
-8	time	time	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+8	time	time	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1873535
@@ -62960,7 +62960,7 @@
 1	Now	now	ADV	RB	_	2	advmod	2:advmod	_
 2	wait	wait	VERB	VB	_	0	root	0:root	_
 3	a	a	DET	DT	_	4	det	4:det	_
-4	minute	minute	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+4	minute	minute	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 5	now	now	ADV	RB	_	2	advmod	2:advmod	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
@@ -63006,7 +63006,7 @@
 4	to	to	PART	TO	_	5	mark	5:mark	_
 5	get	get	VERB	VB	_	3	xcomp	3:xcomp	_
 6	you	you	PRON	PRP	_	5	obj	5:obj	_
-7	today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	_
+7	today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	_
 8	Grampy	Grampy	PROPN	NNP	_	10	nsubj	10:nsubj	_
 9	can	can	AUX	MD	_	10	aux	10:aux	_
 10	go	go	VERB	VB	_	0	root	0:root	_
@@ -63577,7 +63577,7 @@
 8	four	four	NUM	CD	_	9	nummod	9:nummod	_
 9	o'clock	o'clock	NOUN	NNS	_	6	obl	6:obl:at	_
 10	this	this	DET	DT	_	11	det	11:det	_
-11	morning	morning	NOUN	NN	_	9	nmod:tmod	9:nmod:tmod	_
+11	morning	morning	NOUN	NN	_	9	nmod:unmarked	9:nmod:unmarked	_
 12	drinking	drinking	NOUN	NN	_	6	advcl	6:advcl	_
 13	Pepsi	Pepsi	PROPN	NNP	_	12	obj	12:obj	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -63658,7 +63658,7 @@
 2	fell	fall	VERB	VBD	_	0	root	0:root	_
 3	asleep	asleep	ADV	RB	_	2	xcomp	2:xcomp	_
 4	last	last	ADJ	JJ	_	5	amod	5:amod	_
-5	night	night	NOUN	NN	_	2	obl:tmod	2:obl:tmod	_
+5	night	night	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	_
 6	at	at	ADP	IN	_	7	case	7:case	_
 7	half	half	DET	DT	_	2	obl	2:obl:at	_
 8	past	past	ADP	IN	_	9	case	9:case	_
@@ -63754,7 +63754,7 @@
 3	do	do	VERB	VB	_	0	root	0:root	_
 4	the	the	DET	DT	_	5	det	5:det	_
 5	rest	rest	NOUN	NN	_	3	obj	3:obj	_
-6	tomorrow	tomorrow	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+6	tomorrow	tomorrow	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1873714
@@ -65908,7 +65908,7 @@
 7	me	I	PRON	PRP	_	5	obl	5:obl:to	_
 8	the	the	DET	DT	_	10	det	10:det	_
 9	other	other	ADJ	JJ	_	10	amod	10:amod	_
-10	day	day	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+10	day	day	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1882805
@@ -66958,7 +66958,7 @@
 3	na	to	PART	TO	_	4	mark	4:mark	_
 4	show	show	VERB	VB	_	2	xcomp	2:xcomp	_
 5	ya	ya	PRON	PRP	_	4	iobj	4:iobj	_
-6	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+6	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1883545
@@ -67373,7 +67373,7 @@
 3	sew	sew	VERB	VB	_	0	root	0:root	_
 4	them	they	PRON	PRP	_	3	obj	3:obj	_
 5	on	on	ADP	RP	_	3	compound:prt	3:compound:prt	_
-6	today	today	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+6	today	today	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 7	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1883736
@@ -67604,7 +67604,7 @@
 2	got	get	VERB	VBD	_	0	root	0:root	_
 3	em	they	PRON	PRP	_	2	obj	2:obj	_
 4	on	on	ADP	RP	_	2	compound:prt	2:compound:prt	_
-5	yesterday	yesterday	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	yesterday	yesterday	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1883813
@@ -67620,7 +67620,7 @@
 2	got	get	VERB	VBD	_	0	root	0:root	_
 3	em	they	PRON	PRP	_	2	obj	2:obj	_
 4	on	on	ADP	RP	_	2	compound:prt	2:compound:prt	_
-5	yesterday	yesterday	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	yesterday	yesterday	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1883820
@@ -68748,7 +68748,7 @@
 1	Where	where	ADV	WRB	_	0	root	0:root	_
 2	's	be	AUX	VBZ	_	1	cop	1:cop	_
 3	Daddy	Daddy	PROPN	NNP	_	1	nsubj	1:nsubj	_
-4	today	today	NOUN	NN	_	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+4	today	today	NOUN	NN	_	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No
 5	?	?	PUNCT	?	_	1	punct	1:punct	_
 
 # sent_id = 1884253
@@ -69341,7 +69341,7 @@
 3	n't	not	PART	RB	_	4	advmod	4:advmod	_
 4	go	go	VERB	VB	_	0	root	0:root	_
 5	out	out	ADV	RB	_	4	advmod	4:advmod	_
-6	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+6	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = 1890898
@@ -69776,7 +69776,7 @@
 2	're	be	AUX	VBP	_	3	aux	3:aux	_
 3	getting	get	VERB	VBG	_	0	root	0:root	_
 4	ornery	ornery	ADJ	JJ	_	3	xcomp	3:xcomp	_
-5	today	today	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	today	today	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1884758
@@ -70220,7 +70220,7 @@
 2	an	a	DET	DT	_	4	det	4:det	_
 3	eyeglass	eyeglass	NOUN	NN	_	4	compound	4:compound	_
 4	kick	kick	NOUN	NN	_	0	root	0:root	_
-5	today	today	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+5	today	today	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 6	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1884960
@@ -70387,7 +70387,7 @@
 5	to	to	ADP	IN	_	7	case	7:case	_
 6	a	a	DET	DT	_	7	det	7:det	_
 7	wake	wake	NOUN	NN	_	4	obl	4:obl:to	_
-8	tonight	tonight	NOUN	NN	_	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+8	tonight	tonight	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1885012
@@ -71063,7 +71063,7 @@
 2	it	it	PRON	PRP	_	4	nsubj	4:nsubj	_
 3	's	be	AUX	VBZ	_	4	cop	4:cop	_
 4	on	on	ADP	IN	_	0	root	0:root	_
-5	tonight	tonight	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+5	tonight	tonight	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 6	at	at	ADP	IN	_	8	case	8:case	_
 7	seven	seven	NUM	CD	_	8	compound	8:compound	_
 8	thirty	thirty	NUM	CD	_	4	obl	4:obl:at	_
@@ -71183,7 +71183,7 @@
 4	na	to	PART	TO	_	5	mark	5:mark	_
 5	watch	watch	VERB	VB	_	3	xcomp	3:xcomp	_
 6	Cinderella	Cinderella	PROPN	NNP	_	5	obj	5:obj	_
-7	tonight	tonight	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+7	tonight	tonight	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 8	?	?	PUNCT	?	_	3	punct	3:punct	_
 
 # sent_id = 1885273
@@ -71828,7 +71828,7 @@
 # type = declarative
 # text = Last night I don't know what she was talking.
 1	Last	last	ADJ	JJ	_	2	amod	2:amod	_
-2	night	night	NOUN	NN	_	6	obl:tmod	6:obl:tmod	_
+2	night	night	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	_
 3	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
 4-5	don't	_	_	_	_	_	_	_	_
 4	do	do	AUX	VBP	_	6	aux	6:aux	_
@@ -72307,7 +72307,7 @@
 # speaker_role = Mother
 # type = declarative
 # text = Today she wasn't sick.
-1	Today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	_
+1	Today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	_
 2	she	she	PRON	PRP	_	5	nsubj	5:nsubj	_
 3-4	wasn't	_	_	_	_	_	_	_	_
 3	was	be	AUX	VBD	_	5	cop	5:cop	_
@@ -73057,7 +73057,7 @@
 5	to	to	ADP	IN	_	6	case	6:case	_
 6	work	work	VERB	VB	_	4	obl	4:obl:to	_
 7	next	next	ADJ	JJ	_	8	amod	8:amod	_
-8	month	month	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+8	month	month	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1885910
@@ -73260,7 +73260,7 @@
 3	were	be	AUX	VBD	_	4	aux	4:aux	_
 4	trying	try	VERB	VBG	_	0	root	0:root	_
 5	four	four	NUM	CD	_	6	nummod	6:nummod	_
-6	days	day	NOUN	NNS	_	4	obl:tmod	4:obl:tmod	_
+6	days	day	NOUN	NNS	_	4	obl:unmarked	4:obl:unmarked	_
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	get	get	VERB	VB	_	4	advcl	4:advcl:to	_
 9	him	he	PRON	PRP	_	8	obj	8:obj|11:nsubj:xsubj	_
@@ -73590,7 +73590,7 @@
 3	a	a	DET	DT	_	5	det	5:det	_
 4	fresh	fresh	ADJ	JJ	_	5	amod	5:amod	_
 5	kid	kid	NOUN	NN	_	0	root	0:root	_
-6	today	today	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+6	today	today	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1886102
@@ -73779,7 +73779,7 @@
 # text = The first time I I I knew when my uh Mother told me.
 1	The	the	DET	DT	_	3	det	3:det	_
 2	first	first	ADJ	JJ	_	3	amod	3:amod	_
-3	time	time	NOUN	NN	_	7	obl:tmod	7:obl:tmod	_
+3	time	time	NOUN	NN	_	7	obl:unmarked	7:obl:unmarked	_
 4	I	I	PRON	PRP	_	6	reparandum	6:reparandum	repetition
 5	I	I	PRON	PRP	_	6	reparandum	6:reparandum	repetition
 6	I	I	PRON	PRP	_	7	nsubj	7:nsubj	_
@@ -74017,7 +74017,7 @@
 3	so	so	ADV	RB	_	4	advmod	4:advmod	_
 4	pretty	pretty	ADV	RB	_	2	xcomp	2:xcomp	_
 5	this	this	DET	DT	_	6	det	6:det	_
-6	morning	morning	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+6	morning	morning	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1886317
@@ -74097,7 +74097,7 @@
 4	good	good	ADJ	JJ	_	2	advmod	2:advmod	_
 5	though	though	ADV	RB	_	2	advmod	2:advmod	_
 6	this	this	DET	DT	_	7	det	7:det	_
-7	time	time	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+7	time	time	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1886441
@@ -74705,7 +74705,7 @@
 2	was	be	AUX	VBD	_	3	cop	3:cop	_
 3	here	here	ADV	RB	_	0	root	0:root	_
 4	last	last	ADJ	JJ	_	5	amod	5:amod	_
-5	night	night	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+5	night	night	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1886926
@@ -76989,7 +76989,7 @@
 6	wear	wear	VERB	VB	_	4	xcomp	4:xcomp	_
 7	the	the	DET	DT	_	9	det	9:det	_
 8	first	first	ADJ	JJ	_	9	amod	9:amod	_
-9	day	day	NOUN	NN	_	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+9	day	day	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
 10	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1901050
@@ -79163,7 +79163,7 @@
 4	with	with	ADP	IN	_	5	case	5:case	_
 5	it	it	PRON	PRP	_	3	obl	3:obl:with	_
 6	last	last	ADJ	JJ	_	7	amod	7:amod	_
-7	night	night	NOUN	NN	_	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+7	night	night	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = 1904129
@@ -79316,7 +79316,7 @@
 12	school	school	NOUN	NN	_	8	obl	8:obl:to	_
 13	the	the	DET	DT	_	15	det	15:det	_
 14	first	first	ADJ	JJ	_	15	amod	15:amod	_
-15	day	day	NOUN	NN	_	8	obl:tmod	8:obl:tmod	SpaceAfter=No
+15	day	day	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	SpaceAfter=No
 16	?	?	PUNCT	?	_	4	punct	4:punct	_
 
 # sent_id = 1904181
@@ -79751,7 +79751,7 @@
 # text = The next day can I wear this?
 1	The	the	DET	DT	_	3	det	3:det	_
 2	next	next	ADJ	JJ	_	3	amod	3:amod	_
-3	day	day	NOUN	NN	_	6	obl:tmod	6:obl:tmod	_
+3	day	day	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	_
 4	can	can	AUX	MD	_	6	aux	6:aux	_
 5	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
 6	wear	wear	VERB	VB	_	0	root	0:root	_
@@ -80023,7 +80023,7 @@
 5	her	she	PRON	PRP	_	4	obj	4:obj	_
 6	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
 7	one	one	NUM	CD	_	8	nummod	8:nummod	_
-8	Thursday	Thursday	PROPN	NNP	_	4	obl:tmod	4:obl:tmod	_
+8	Thursday	Thursday	PROPN	NNP	_	4	obl:unmarked	4:obl:unmarked	_
 9	but	but	CCONJ	CC	_	13	cc	13:cc	_
 10	she	she	PRON	PRP	_	13	nsubj	13:nsubj	_
 11-12	won't	_	_	_	_	_	_	_	_
@@ -80309,7 +80309,7 @@
 2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
 3	study	study	VERB	VBP	_	0	root	0:root	_
 4	all	all	DET	DT	_	5	det	5:det	_
-5	day	day	NOUN	NN	_	3	obl:tmod	3:obl:tmod	_
+5	day	day	NOUN	NN	_	3	obl:unmarked	3:obl:unmarked	_
 6	at	at	ADP	IN	_	8	case	8:case	_
 7	the	the	DET	DT	_	8	det	8:det	_
 8	school	school	NOUN	NN	_	3	obl	3:obl:at	_
@@ -80335,7 +80335,7 @@
 7	ta	to	PART	TO	_	8	mark	8:mark	_
 8	study	study	VERB	VB	_	6	xcomp	6:xcomp	_
 9	all	all	DET	DT	_	10	det	10:det	_
-10	day	day	NOUN	NN	_	8	obl:tmod	8:obl:tmod	SpaceAfter=No
+10	day	day	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = 1905236
@@ -80356,7 +80356,7 @@
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	forth	forth	ADV	RB	_	5	conj	5:conj:and	_
 8	this	this	DET	DT	_	9	det	9:det	_
-9	week	week	NOUN	NN	_	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+9	week	week	NOUN	NN	_	5	obl:unmarked	5:obl:unmarked	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = 1905247
@@ -80407,7 +80407,7 @@
 2	're	be	AUX	VBP	_	4	aux	4:aux	_
 3	not	not	PART	RB	_	4	advmod	4:advmod	_
 4	going	go	VERB	VBG	_	0	root	0:root	_
-5	tomorrow	tomorrow	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+5	tomorrow	tomorrow	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 6	either	either	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -80496,7 +80496,7 @@
 2	're	be	AUX	VBP	_	4	aux	4:aux	_
 3	not	not	PART	RB	_	4	advmod	4:advmod	_
 4	going	go	VERB	VBG	_	0	root	0:root	_
-5	Friday	Friday	PROPN	NNP	_	4	obl:tmod	4:obl:tmod	_
+5	Friday	Friday	PROPN	NNP	_	4	obl:unmarked	4:obl:unmarked	_
 6	either	either	ADV	RB	_	4	advmod	4:advmod	_
 7	because	because	SCONJ	IN	_	10	mark	10:mark	_
 8-9	I'm	_	_	_	_	_	_	_	_
@@ -81501,7 +81501,7 @@
 # speaker_role = Mother
 # type = declarative
 # text = Everyday I'm gonna hafta put your hair in curlers.
-1	Everyday	everyday	ADV	RB	_	4	obl:tmod	4:obl:tmod	_
+1	Everyday	everyday	ADV	RB	_	4	obl:unmarked	4:obl:unmarked	_
 2-3	I'm	_	_	_	_	_	_	_	_
 2	I	I	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	_
 3	'm	be	AUX	VBP	_	4	aux	4:aux	_
@@ -81996,7 +81996,7 @@
 # type = declarative
 # text = One day she did.
 1	One	one	NUM	CD	_	2	nummod	2:nummod	_
-2	day	day	NOUN	NN	_	4	obl:tmod	4:obl:tmod	_
+2	day	day	NOUN	NN	_	4	obl:unmarked	4:obl:unmarked	_
 3	she	she	PRON	PRP	_	4	nsubj	4:nsubj	_
 4	did	do	VERB	VBD	_	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
@@ -82403,7 +82403,7 @@
 2	squeals	squeal	VERB	VBZ	_	0	root	0:root	_
 3	all	all	DET	PDT	_	5	det:predet	5:det:predet	_
 4	the	the	DET	DT	_	5	det	5:det	_
-5	time	time	NOUN	NN	_	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+5	time	time	NOUN	NN	_	2	obl:unmarked	2:obl:unmarked	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = 1905848
@@ -82995,7 +82995,7 @@
 3	about	about	ADP	IN	_	5	case	5:case	_
 4	your	you	PRON	PRP$	_	5	nmod:poss	5:nmod:poss	_
 5	party	party	NOUN	NN	_	1	obl	1:obl:about	_
-6	yesterday	yesterday	NOUN	NN	_	5	nmod:tmod	5:nmod:tmod	SpaceAfter=No
+6	yesterday	yesterday	NOUN	NN	_	5	nmod:unmarked	5:nmod:unmarked	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = 1905983
