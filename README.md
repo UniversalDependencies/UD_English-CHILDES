@@ -11,7 +11,7 @@ resulting in a gold-standard treebank of 48K sentences and 236K tokens.
 | Child  | Corpus     | Child Age Range     | Gold Sents | Gold Toks |
 |--------|------------|---------------------|------------|-----------|
 | Laura  | Braunwald  | 1;3–7;0 (1;3–7;0)   | 4,622      | 21,079    |
-| Adam   | Brown      | 1;6–5;2 (1;6–5;2)   | 16,736     | 84,643    |
+| Adam   | Brown      | 1;6–5;2 (1;6–5;2)   | 16,770     | 84,643    |
 | Eve    | Brown      | 1;6–5;1 (1;6–5;2)   | 2,207      | 8,497     |
 | Abe    | Kuczaj     | 2;4–5;0 (2;4–5;0)   | 4,167      | 22,437    |
 | Sarah  | Brown      | 1;6–5;2 (1;6–5;2)   | 5,347      | 23,233    |
@@ -98,8 +98,16 @@ We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldw
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Adds 10k missing Adam sentences, and updates README stats
+  * Corrections to address the "too many `obj`s" validator error
+  * Clarify metadata terminology: `speaker_age` → `child_age`, `speaker_gender` → `child_gender` ([#2](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/2))
+  * Correct issues with _either_/_neither_/_yet_ ([#3](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/3))
+  * Correct _dat_ ('that') tagged ADP instead of PRON ([#4](https://github.com/UniversalDependencies/UD_English-CHILDES/issues/4))
+  * Correct 'obl-should-be-nmod' warning.
+  * Replace all ```:tmod``` with ```:unmarked```.
 * 2025-05-15 v2.16
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies. NOTE: Due to a preprocessing bug, this version was missing 10k Adam sentences, and README statistics were incorrect.
 
 
 <pre>
@@ -107,6 +115,7 @@ We acknowledge Ida Szubert, Omri Abend, Samuel Gibbon, Louis Mahon, Sharon Goldw
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
