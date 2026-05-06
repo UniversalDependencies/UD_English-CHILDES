@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-CHILDES:
-commit 51c7a5faaa6a6c8dfb9ef61943d58f055ee95a09
-Merge: 1036d3e 6b7d07f
+commit 9bb06d0e8f59f9fd9522bb7b6767ec0cbf2eeb32
+Merge: f3ec17b 41596ed
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_childes'
@@ -25,45 +25,45 @@ Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-CHILDES/en_childes-ud-dev.conllu
-[Line 12 Sent 34732]: [L3 Warning pron-det-without-prontype] The word 'We' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 16 Sent 34732]: [L3 Warning pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 21 Sent 34732]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 43 Sent 34733]: [L3 Warning pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 75 Sent 34735]: [L3 Warning pron-det-without-prontype] The word 'I' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 79 Sent 34735]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 94 Sent 34736]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 116 Sent 34737]: [L3 Warning pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 132 Sent 34738]: [L3 Warning pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 148 Sent 34739]: [L3 Warning pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 12 Sent 34732]: [L3 WARNING pron-det-without-prontype] The word 'We' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 16 Sent 34732]: [L3 WARNING pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 21 Sent 34732]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 43 Sent 34733]: [L3 WARNING pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 75 Sent 34735]: [L3 WARNING pron-det-without-prontype] The word 'I' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 79 Sent 34735]: [L3 WARNING pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent 34736]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 116 Sent 34737]: [L3 WARNING pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 132 Sent 34738]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 148 Sent 34739]: [L3 WARNING pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 5959
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-CHILDES/en_childes-ud-test.conllu
-[Line 29 Sent 38593]: [L3 Warning pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 31 Sent 38593]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 34 Sent 38593]: [L3 Warning pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 36 Sent 38593]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 69 Sent 38595]: [L3 Warning pron-det-without-prontype] The word 'you' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 71 Sent 38595]: [L3 Warning pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 88 Sent 38596]: [L3 Warning pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 90 Sent 38596]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 107 Sent 38597]: [L3 Warning pron-det-without-prontype] The word 'No' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 126 Sent 38598]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 29 Sent 38593]: [L3 WARNING pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent 38593]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 34 Sent 38593]: [L3 WARNING pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 36 Sent 38593]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 69 Sent 38595]: [L3 WARNING pron-det-without-prontype] The word 'you' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent 38595]: [L3 WARNING pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 88 Sent 38596]: [L3 WARNING pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 90 Sent 38596]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 107 Sent 38597]: [L3 WARNING pron-det-without-prontype] The word 'No' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 126 Sent 38598]: [L3 WARNING pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 13244
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-CHILDES/en_childes-ud-train.conllu
-[Line 13 Sent 0]: [L3 Warning pron-det-without-prontype] The word 'You' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 17 Sent 0]: [L3 Warning pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 19 Sent 0]: [L3 Warning pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 50 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'I' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 71 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'It' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 73 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'an' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 76 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 109 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'you' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 128 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 130 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'something' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 13 Sent 0]: [L3 WARNING pron-det-without-prontype] The word 'You' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 17 Sent 0]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 19 Sent 0]: [L3 WARNING pron-det-without-prontype] The word 'what' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 50 Sent 2]: [L3 WARNING pron-det-without-prontype] The word 'I' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'It' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'an' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 76 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 109 Sent 5]: [L3 WARNING pron-det-without-prontype] The word 'you' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 128 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'that' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 130 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'something' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 54391
 *** PASSED ***
 Validity: 1
