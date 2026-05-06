@@ -73,7 +73,7 @@
     <dep name="iobj">963</dep>
     <dep name="list">47</dep>
     <dep name="mark">6717</dep>
-    <dep name="nmod">2529</dep>
+    <dep name="nmod">2527</dep>
     <dep name="nmod:npmod">15</dep>
     <dep name="nmod:poss">4740</dep>
     <dep name="nmod:unmarked">110</dep>
@@ -82,7 +82,7 @@
     <dep name="nsubj:pass">264</dep>
     <dep name="nummod">876</dep>
     <dep name="obj">20344</dep>
-    <dep name="obl">7773</dep>
+    <dep name="obl">7775</dep>
     <dep name="obl:npmod">226</dep>
     <dep name="obl:unmarked">494</dep>
     <dep name="orphan">1</dep>
