@@ -5,33 +5,33 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>48183</sentences><tokens>289817</tokens><words>302740</words><fused>12905</fused></total>
-    <train><sentences>34732</sentences><tokens>212409</tokens><words>221030</words><fused>8609</fused></train>
+    <total><sentences>48183</sentences><tokens>289817</tokens><words>302739</words><fused>12904</fused></total>
+    <train><sentences>34732</sentences><tokens>212409</tokens><words>221029</words><fused>8608</fused></train>
     <dev><sentences>3860</sentences><tokens>23386</tokens><words>24310</words><fused>923</fused></dev>
     <test><sentences>9591</sentences><tokens>54022</tokens><words>57400</words><fused>3373</fused></test>
   </size>
   <lemmas unique="4795" /><!-- ., be, ?, you, i, do, the, it, a, that, not, to, what, go, and -->
-  <forms unique="6174" /><!-- ., ?, you, i, the, it, 's, a, that, what, do, and, to, is, n't -->
+  <forms unique="6175" /><!-- ., ?, you, i, the, it, 's, a, that, what, do, and, to, is, n't -->
   <fusions unique="425" /><!-- don't, it's, that's, I'm, wanna, gonna, you're, what's, hafta, he's, didn't, can't, let's, I'll, there's -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">9305</tag><!-- big, little, good, more, other, nice, right, red, else, new -->
     <tag name="ADP">13571</tag><!-- in, on, of, with, for, to, like, at, up, about -->
-    <tag name="ADV">17142</tag><!-- here, there, where, now, just, how, too, why, on, so -->
+    <tag name="ADV">17141</tag><!-- here, there, where, now, just, how, too, why, on, so -->
     <tag name="AUX">26682</tag><!-- be, do, can, will, have, would, could, should, might, may -->
     <tag name="CCONJ">4433</tag><!-- and, but, or, either, both, dey, plus, then, tidil, yet -->
     <tag name="DET">20388</tag><!-- the, a, that, this, some, all, no, what, another, any -->
     <tag name="INTJ">8667</tag><!-- oh, no, yes, yeah, well, um, okay, hey, please, uh -->
-    <tag name="NOUN">36278</tag><!-- one, baby, car, thing, book, time, house, milk, kind, paper -->
+    <tag name="NOUN">36276</tag><!-- one, baby, car, thing, book, time, house, milk, kind, paper -->
     <tag name="NUM">2508</tag><!-- one, two, three, four, five, six, seven, nine, eight, i -->
     <tag name="PART">10416</tag><!-- not, to, 's, s, be, that, 's', no, dey, dis -->
-    <tag name="PRON">53206</tag><!-- you, i, it, that, what, he, we, they, this, my -->
+    <tag name="PRON">53207</tag><!-- you, i, it, that, what, he, we, they, this, my -->
     <tag name="PROPN">8397</tag><!-- Adam, mommy, Daddy, Laura, Paul, Ursula, Cromer, Mummy, Abe, Thomas -->
     <tag name="PUNCT">48217</tag><!-- ., ?, !, dere, :, o, that, Swww, a, dis -->
     <tag name="SCONJ">2939</tag><!-- if, because, when, that, how, where, like, but, while, after -->
     <tag name="SYM">20</tag><!-- a, whoowhoo, b, f, g, o, ooh, ssh, that, um -->
     <tag name="VERB">40407</tag><!-- go, have, do, want, get, see, put, think, look, say -->
-    <tag name="X">164</tag><!-- _, doo, a, e, r, d, s, o, h, mm -->
+    <tag name="X">165</tag><!-- _, doo, a, e, r, d, s, o, h, ya -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="5">
@@ -57,19 +57,19 @@
     <dep name="ccomp">2817</dep>
     <dep name="compound">2932</dep>
     <dep name="compound:prt">1768</dep>
-    <dep name="conj">4709</dep>
+    <dep name="conj">4708</dep>
     <dep name="cop">9962</dep>
     <dep name="csubj">52</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">77</dep>
     <dep name="det">18680</dep>
     <dep name="det:predet">283</dep>
-    <dep name="discourse">7969</dep>
+    <dep name="discourse">7968</dep>
     <dep name="dislocated">57</dep>
     <dep name="expl">706</dep>
     <dep name="fixed">177</dep>
-    <dep name="flat">826</dep>
-    <dep name="goeswith">32</dep>
+    <dep name="flat">829</dep>
+    <dep name="goeswith">31</dep>
     <dep name="iobj">963</dep>
     <dep name="list">47</dep>
     <dep name="mark">6717</dep>
@@ -77,16 +77,16 @@
     <dep name="nmod:npmod">15</dep>
     <dep name="nmod:poss">4740</dep>
     <dep name="nmod:unmarked">110</dep>
-    <dep name="nsubj">38679</dep>
+    <dep name="nsubj">38678</dep>
     <dep name="nsubj:outer">273</dep>
     <dep name="nsubj:pass">264</dep>
     <dep name="nummod">876</dep>
-    <dep name="obj">20344</dep>
+    <dep name="obj">20345</dep>
     <dep name="obl">7775</dep>
     <dep name="obl:npmod">226</dep>
     <dep name="obl:unmarked">494</dep>
     <dep name="orphan">1</dep>
-    <dep name="parataxis">3057</dep>
+    <dep name="parataxis">3056</dep>
     <dep name="punct">48186</dep>
     <dep name="reparandum">1312</dep>
     <dep name="root">48183</dep>
