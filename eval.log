@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_English-CHILDES:
-commit 9bb06d0e8f59f9fd9522bb7b6767ec0cbf2eeb32
-Merge: f3ec17b 41596ed
+commit 7b6e184f8760623568ed8cebe73906e7bddff388
+Merge: 92d3cf4 9735fe4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_childes'
 Language code (from CoNLL-U file name) = 'en'
 Found the following data files: en_childes-ud-dev.conllu, en_childes-ud-test.conllu, en_childes-ud-train.conllu
-Size: counted 302740 of 302740 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.4257487026688.
+Size: counted 302739 of 302739 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.4257420963291.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 236 out of 302740 total words have one or more features.
+Features: 236 out of 302739 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -50,7 +50,7 @@ Warnings: 5959
 [Line 107 Sent 38597]: [L3 WARNING pron-det-without-prontype] The word 'No' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 126 Sent 38598]: [L3 WARNING pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
-Warnings: 13244
+Warnings: 13245
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-CHILDES/en_childes-ud-train.conllu
 [Line 13 Sent 0]: [L3 WARNING pron-det-without-prontype] The word 'You' is tagged 'PRON' but it lacks the 'PronType' feature
@@ -70,10 +70,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
-(weight=0.37037037037037) * (score{size}=0.827023268863719) = 0.30630491439397
+(weight=0.37037037037037) * (score{size}=0.827022790680901) = 0.306304737289223
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.1) = 0.0111111111111111
 (weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
-(TOTAL score=0.574659936082325) * (availability=1) * (validity=1) = 0.574659936082325
+(TOTAL score=0.574659758977577) * (availability=1) * (validity=1) = 0.574659758977577
 STARS = 3
-UD_English-CHILDES	0.574659936082325	3
+UD_English-CHILDES	0.574659758977577	3
